@@ -15,7 +15,7 @@ Character::Character(string newName, int newHealth, int newDamage, int newArrows
 }
 
 void Character::set_health(int newHealth) {
-	health = newHealth;
+	health = newHealth
 }
 
 void Character::attack(Character& target) {
