@@ -40,7 +40,7 @@ void Character::display() const {
 	std::cout << name << " health: " << health << " arrows: " << arrows << std::endl;
 }
 
-void Character::get_name() {
+void Character::get_name() const {
 	return name;
 }
 
